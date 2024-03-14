@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html body{
+    margin: 0;
+    padding: 0;
+    background: #1A1B21;
+    font-family:"Inter", sans-serif;
+    color: #F5F5F5;
+}
+
+/* INFO */
+
+.info-container{
+    text-align: center;
+}
+
+.profile-pic{
+    width: 325px;
+    height: 325px;
+    margin:0;
+}
+
+.name{
+    font-size: 1.5625rem; /*25px*/
+    font-weight: 700;
+    margin: 1em 0 0 0;
+}
+
+.job{
+    color: #F3BF99;
+    font-size: .75rem; /*12px*/
+    font-weight: 400;
+    margin: .5em 0 .5625em 0;
+}
+
+a, a:link, a:visited, a:active{
+    text-decoration:none;
+    font-size: .625rem; /*10px*/
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.email, .linkedin{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:inherit;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 115%;
+    border-radius: 6px;
+    border:none;
+    width: 115px; 
+}
+
+.email{
+    background: #FFF;
+    color:#374151;
+    padding: .7em 1.75em;
+    margin-right: 1em;
+}
+
+.linkedin{
+    background: #5093E2;
+    color: #FFF;
+    padding: .7em 1.1em;
+}
+
+/* About & Interests*/
+
+.body-container{
+    width:85%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.body-header{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+    margin:0;
+}
+
+.body-text{
+    font-size: .625rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: .5em;
+}
+
+/* Footer */
+
+.footer-container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    padding: 1.5rem
+}
+
+.icon{
+    font-size: 2rem;
+}
